@@ -1,0 +1,32 @@
+{
+	"name": "mobile-trial",
+	"mongodb": {
+		"production": "mongodb://localhost/mobile-trial-db",
+		"test": "mongodb://localhost/mobile-trial-test"
+	},
+	"port":	443,
+	"https": {
+		"key": "./serverkey.pem",
+		"certificate": "./certificate.pem" 
+	},
+	"iprange": {
+		"user": {
+			"v4": [
+				"127.0.0.1",
+				"192.168.x.x"
+			]
+		},
+		"admin": {
+			"v4":	[
+				"127.0.0.1",
+				"192.168.1.52"
+			]
+		},
+		"developer": {
+			"v4":	[
+				"127.0.0.1",
+				"192.168.6.x"
+			]
+		}
+	}
+}

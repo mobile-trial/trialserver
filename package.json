@@ -1,0 +1,32 @@
+{
+  "name": "mobile-trial-server",
+  "version": "0.1.0",
+  "private": true,
+  "author":  "Martin Christmann <martin.christmann@gmail.com>",
+  "scripts": {
+    "start": "nodemon --watch app.js --watch config.json --watch service --watch route --watch data app.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaChristmann/mobile-trial"
+  },
+  "keywords": [
+    "android",
+    "trial",
+    "authorization",
+    "license",
+    "demo", 
+    "lite"
+  ], 
+  "dependencies": {
+    "restify": "2.3.x",
+    "mongoose": "3.6.x",
+    "async": "0.2.x",
+    "bcrypt": "0.7.x",
+    "winston": "0.6.x"
+   }, 
+  "devDependencies": {
+    "mocha": "1.8.x",
+    "nodemon": "0.7.4"
+  }
+}
